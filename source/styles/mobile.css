@@ -1,0 +1,63 @@
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 2vw;
+    }
+
+    .wrapper_0 {
+        flex-direction: row;
+    }
+
+    .wrapper_1 {
+        margin-bottom: 1vw;
+    }
+
+    .thumbnail {
+        width: 350px;
+        height: 350px;
+        margin-right: 5vw;
+    }
+    .surname {
+        font-size: 64px;
+    }
+    .description {
+       font-size: 48px;
+    }
+    .information {
+        visibility: inherit;
+        border: solid 1px none;
+        border-radius: 30px;
+        background-color: #cdcdcd;
+        width: 600px;
+        height: 300px;
+        margin-top: 2vw;
+        padding: 1vw;
+        font-size: clamp(28px, 32px, 36px);
+        overflow: clip;
+        overflow-clip-margin: content-box;
+        user-select: none;
+    }
+    .btn-contact {
+        position: absolute;
+        width: 315px;
+        height: 80px;
+        right: 3vw;
+        bottom: 3vw;
+    }
+    #contact {
+        width: 315px;
+        height: 80px;
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width: 800px) and (min-height: 1000px) {
+    .wrapper_1 {
+        margin-bottom: 19vw;
+    }
+
+    .btn-contact {
+        width: 350px;
+        right: 7vw;
+        bottom: 7vw;
+    }
+}

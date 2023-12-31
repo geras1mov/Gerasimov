@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Genos";
+    src: url('../../source/fonts/Genos-Regular.ttf');
+}
+
+:root {
+    --fill-color: #cdcdcd;
+}
+
+*, html, body {
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+    font-family: Genos;
+    gap: 2vw;
+}
+
+.wrapper_0, .wrapper_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thumbnail {
+    background-color: var(--fill-color);
+    border: solid 1px var(--fill-color);
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.surname {
+    font-size: 48px;
+}
+
+.description {
+    margin-top: 3vw;
+    font-size: 40px;
+    color: #4e4e4e;
+}
+
+.information {
+    visibility: hidden;
+}
+
+.btn-contact {
+    margin-top: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 56px;
+}
+
+#contact {
+    width: 200px;
+    height: 56px;
+    background-color: var(--fill-color);
+    border: solid 2px var(--fill-color);
+    border-radius: 20px;
+    font-family: Genos;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.fa-brands {
+    font-size: 48px;
+    color: gray;
+}
